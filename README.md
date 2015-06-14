@@ -1,4 +1,4 @@
-# Current Song Playing - Applescript version.
+Current Song Playing - Applescript version.
 =====================
 Current Song Playing (CSP) made in applescript.
 

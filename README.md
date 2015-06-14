@@ -4,7 +4,7 @@ Currently Song Playing made in applescript, saved to a file on your desktop, whi
 
 # Running
 open Terminal and navigate to where you downloaded the script and run
-./run.sh
+> ./run.sh
 
 or create your own way!
 

@@ -1,7 +1,10 @@
 -- Main flow
+tell application "Finder" to set current_path to container of (path to me) as string
+set current_path to POSIX path of current_path
+
 repeat -- repeats until quited (ctrl/cmd+c)
 	set currentlyPlayingTrack to getCurrentlyPlayingTrack(getPlayingMedia())
-	do shell script "echo " & quoted form of currentlyPlayingTrack & " > $HOME/Desktop/CurrentSongPlaying.txt"
+	do shell script "echo " & quoted form of currentlyPlayingTrack & " > " & current_path & "CurrentSongPlaying.txt"
 end repeat
 
 -- Debug/WIP testing;
@@ -9,7 +12,6 @@ end repeat
 --do shell script "echo '" & currentlyPlayingTrack & "' > $HOME/Desktop/CurrentSongPlaying.txt"
 --display dialog "Currently playing on " & getPlayingMedia() & ": " & currentlyPlayingTrack
 --display notification "Currently playing on " & getPlayingMedia() & ": " & currentlyPlayingTrack
-
 
 -- find out which app is playing music.
 -- if multiple is playing at the same time, 

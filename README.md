@@ -13,8 +13,12 @@ open Terminal and navigate to where you downloaded the script and run
 
 or create your own way!
 
-Currently, the current song playing file is located on your Desktop, called "CurrentSongPlaying.txt"
-This is likely to change to same folder as the script is in.
+Currently, the CSP file is located in the same folder as the script, called "CurrentSongPlaying.txt"
+
+Pull Requests
+-------------
+I'm happily take pull requests, but make sure to include an updated version of the applescript in plain-text!
+This can be done by export to text inside the Script Editor.
 
 Inspired by SNIP
 ----------------

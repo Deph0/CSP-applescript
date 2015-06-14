@@ -1,4 +1,4 @@
-# Current Song Pplaying - Applescript version.
+# Current Song Playing - Applescript version.
 Currently Song Playing (CSP) made in applescript, is saved to a file on your desktop, which is useful for streaming services such as XSplit or OBS (Open Broadcaster Software)
 
 

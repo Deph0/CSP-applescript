@@ -9,3 +9,6 @@ open Terminal and navigate to where you downloaded the script and run
 or create your own way!
 
 Currently, the Current Song Playing s located on your Desktop, called "CurrentSongPlaying.txt"
+
+# Inspired by SNIP
+https://github.com/dlrudie/Snip
